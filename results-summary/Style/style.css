@@ -98,13 +98,30 @@
         justify-content: space-around;
         align-items: center;
       }
+      .result-card.reaction {
+        background-color: rgba(255, 0, 0, 0.1);
+      }
+
+      .result-card.memory {
+        background-color: rgba(241, 167, 49, 0.1);
+      }
+
+      .result-card.verbal {
+        background-color: rgba(92, 244, 25, 0.1);
+      }
+
+      .result-card.visual {
+        background-color: rgba(79, 105, 199, 0.1);
+      }
 
         .info-align {
           display: flex;
           flex-direction: row;
           align-items: center;
           align-content: center;
-          justify-content: center;
+          justify-content: space-between;
+          width: 100px;
+          margin-left: 0px;
         }
 
         .info-align.reaction {
