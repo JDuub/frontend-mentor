@@ -17,6 +17,7 @@
   align-content: center;
   align-items: center;
   font-family: 'Outfit', sans-serif;
+  box-shadow: -1px 20px 30px -12px hsl(212deg 25.04% 77.08%);
 }
 
 .qr-icon {
