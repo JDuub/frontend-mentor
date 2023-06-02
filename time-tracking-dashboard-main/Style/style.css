@@ -71,32 +71,98 @@
     }
 
   .card-icon {
-    background-color: beige;
+    display: flex;
     width: 235px;
-    height: 51px;
+    height: 42px;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: -14px;
   }
 
-  .card-work {
-    background-color: hsl(15, 100%, 70%);
-    border-radius: 12px;
+    .card-work {
+      background-color: hsl(15, 100%, 70%);
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+      .icon-work {
+        width: 31%;
+        margin-top: -10px;
+      }
+    .card-play {
+      background-color: hsl(195, 74%, 62%);
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+      .icon-play {
+        width: 31%;
+        margin-top: -10px;
+      }
+    .card-study {
+      background-color: hsl(348, 100%, 68%);
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+      .icon-study {
+        width: 31%;
+        margin-top: -10px;
+      }
+    .card-excercise {
+      background-color: hsl(145, 58%, 55%);
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+      .icon-excercise {
+        width: 31%;
+        margin-top: -10px;
+      }
+    .card-social {
+      background-color: hsl(264, 64%, 52%);
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+      .icon-social {
+        width: 31%;
+        margin-top: -10px;
+      }
+    .card-self-care {
+      background-color: hsl(43, 84%, 65%);
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+      .icon-self-care {
+        width: 31%;
+        margin-top: -10px;
+      }
+
+  .card-front {
+    background-color: hsl(235, 46%, 20%);
+    height: 198px;
+    border-radius: 11px;
   }
-  .card-play {
-    background-color: hsl(195, 74%, 62%);
-    border-radius: 12px;
-  }
-  .card-study {
-    background-color: hsl(348, 100%, 68%);
-    border-radius: 12px;
-  }
-  .card-excercise {
-    background-color: hsl(145, 58%, 55%);
-    border-radius: 12px;
-  }
-  .card-social {
-    background-color: hsl(264, 64%, 52%);
-    border-radius: 12px;
-  }
-  .card-self-care {
-    background-color: hsl(43, 84%, 65%);
-    border-radius: 12px;
-  }
+
+    .topic {
+    color: white;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    padding: 31px;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .hours-big {
+      color: white;
+      font-size: 48px;
+      font-weight: lighter;
+      padding-left: 31px;
+      margin-top: -5px;
+    }
+
+    .hours-small {
+      color: hsl(236, 100%, 87%);
+      padding-left: 31px;
+      font-size: 15px;
+      margin-top: 14px;
+    }
