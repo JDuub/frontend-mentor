@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="Style/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -16,63 +19,181 @@
 </head>
 <body>
   <div class="container">
-    <div class="grid">
-      <div class="side-bar">
-        <div>
-          Report for
-          Jeremy Robson
+    <div class="grid-container">
+      <div class="sidebar">
+        <div class="sidebar-top">
+          <div>
+            <img class="profile-pic" src="images/image-jeremy.png" alt="image-jeremy">
+          </div>
+          <div class="paragraph">
+            Report for
+          </div>
+          <div class="profile-name">
+            Jeremy Robson
+          </div>
         </div>
-        Daily
-        Weekly
-        Monthly
+        <div class="sidebar-bottom">
+          <div class="time-intervall">
+            Daily
+          </div>
+          <div class="time-intervall">
+            Weekly
+          </div>
+          <div class="time-intervall">
+            Monthly
+          </div>
+        </div>
       </div>
-      Work
-      5hrs <!-- daily -->
-      Previous - 7hrs <!-- daily -->
-      32hrs <!-- weekly -->
-      Previous - 36hrs <!-- weekly -->
-      103hrs <!-- monthly -->
-      Previous - 128hrs <!-- monthly -->
+      <div class="card-work">
+        <div class="card-icon">
+          <img class="icon-work" src="images/icon-work.svg" alt="icon-work">
+        </div>
+        <div class="card-front">
+          <div class="topic">
+            <div>
+              Work
+            </div>
+            <div>
+              ...
+            </div>
+          </div>
+                    <!-- 5hrs daily -->
+                    <!-- Previous - 7hrs daily -->
+          <div class="hours-big">
+            32hrs <!-- weekly -->
+          </div>
+          <div class="hours-small">
+            Previous - 36hrs <!-- weekly -->
+          </div>
+                    <!-- 103hrs monthly -->
+                    <!-- Previous - 128hrs monthly -->
+        </div>
+      </div>
+      <div class="card-play">
+        <div class="card-back">
 
-      Play
-      1hr <!-- daily -->
-      Previous - 2hrs <!-- daily -->
-      10hrs <!-- weekly -->
-      Previous - 8hrs <!-- weekly -->
-      23hrs <!-- monthly -->
-      Previous - 29hrs <!-- monthly -->
+        </div>
+        <div class="card-front">
+          <div class="topic">
+            <div>
+              Play
+            </div>
+            <div>
+              ...
+            </div>
+          </div>
+                    <!-- 1hr daily -->
+                    <!-- Previous - 2hrs daily -->
+          <div class="hours-big">
+            10hrs <!-- weekly -->
+          </div>
+          <div class="hours-small">
+            Previous - 8hrs <!-- weekly -->
+          </div>
+                    <!-- 23hrs monthly -->
+                    <!-- Previous - 29hrs monthly -->
+        </div>
+      </div>
+      <div class="card-study">
+        <div class="card-back">
 
-      Study
-      0hrs <!-- daily -->
-      Previous - 1hr <!-- daily -->
-      4hrs <!-- weekly -->
-      Previous - 7hrs <!-- weekly -->
-      13hrs <!-- monthly -->
-      Previous - 19hrs <!-- monthly -->
+        </div>
+        <div class="card-front">
+          <div class="topic">
+            <div>
+              Study
+            </div>
+            <div>
+              ...
+            </div>
+          </div>
+                    <!-- 0hr daily -->
+                    <!-- Previous - 1hrs daily -->
+          <div class="hours-big">
+            4hrs <!-- weekly -->
+          </div>
+          <div class="hours-small">
+            Previous - 7hrs <!-- weekly -->
+          </div>
+                    <!-- 13hrs monthly -->
+                    <!-- Previous - 19hrs monthly -->
+        </div>
+      </div>
+      <div class="card-excercise">
+        <div class="card-back">
 
-      Exercise
-      1hr <!-- daily -->
-      Previous - 1hr <!-- daily -->
-      4hrs <!-- weekly -->
-      Previous - 5hrs <!-- weekly -->
-      11hrs <!-- monthly -->
-      Previous - 18hrs <!-- monthly -->
+        </div>
+        <div class="card-front">
+          <div class="topic">
+            <div>
+              Excercise
+            </div>
+            <div>
+              ...
+            </div>
+          </div>
+                    <!-- 1hr daily -->
+                    <!-- Previous - 1hrs daily -->
+          <div class="hours-big">
+            4hrs <!-- weekly -->
+          </div>
+          <div class="hours-small">
+            Previous - 5hrs <!-- weekly -->
+          </div>
+                    <!-- 11hrs monthly -->
+                    <!-- Previous - 18hrs monthly -->
+        </div>
+      </div>
+      <div class="card-social">
+        <div class="card-back">
 
-      Social
-      1hr <!-- daily -->
-      Previous - 3hrs <!-- daily -->
-      5hrs <!-- weekly -->
-      Previous - 10hrs <!-- weekly -->
-      21hrs <!-- monthly -->
-      Previous - 23hrs <!-- monthly -->
+        </div>
+        <div class="card-front">
+          <div class="topic">
+            <div>
+              Social
+            </div>
+            <div>
+              ...
+            </div>
+          </div>
+                    <!-- 1hr daily -->
+                    <!-- Previous - 3hrs daily -->
+          <div class="hours-big">
+            5hrs <!-- weekly -->
+          </div>
+          <div class="hours-small">
+            Previous - 10hrs <!-- weekly -->
+          </div>
+                    <!-- 21hrs monthly -->
+                    <!-- Previous - 23hrs monthly -->
+        </div>
+      </div>
+      <div class="card-self-care">
+        <div class="card-back">
 
-      Self Care
-      0hrs <!-- daily -->
-      Previous - 1hr <!-- daily -->
-      2hrs <!-- weekly -->
-      Previous - 2hrs <!-- weekly -->
-      7hrs <!-- monthly -->
-      Previous - 11hrs <!-- monthly -->
+        </div>
+        <div class="card-front">
+          <div class="topic">
+            <div>
+              Self Care
+            </div>
+            <div>
+              ...
+            </div>
+          </div>
+                    <!-- 0hr daily -->
+                    <!-- Previous - 1hrs daily -->
+          <div class="hours-big">
+            2hrs <!-- weekly -->
+          </div>
+          <div class="hours-small">
+            Previous - 2hrs <!-- weekly -->
+          </div>
+                    <!-- 7hrs monthly -->
+                    <!-- Previous - 11hrs monthly -->
+        </div>
+      </div>
     </div>
   </div>
 
