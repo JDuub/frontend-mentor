@@ -81,6 +81,10 @@
     margin-left: -14px;
   }
 
+  .activity {
+    color: white;
+    font-weight: 500;
+  }
     .card-work {
       background-color: hsl(15, 100%, 70%);
       border-radius: 12px;
@@ -141,10 +145,15 @@
     height: 198px;
     border-radius: 11px;
   }
+  .card-front:hover {
+    background-color: hsl(235, 45%, 61%);
+  }
+
+  .icon-ellipsis:hover {
+    color: white;
+  }
 
     .topic {
-    color: white;
-    font-weight: 500;
     display: flex;
     flex-direction: row;
     padding: 31px;
